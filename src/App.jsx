@@ -14,15 +14,15 @@ const App = () => {
   //! console.log(authData.employees);
   //! refresh karne par .employees data error show karta hai
 
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("loggedInUser");
+  // useEffect(() => {
+  //   const loggedInUser = localStorage.getItem("loggedInUser");
 
-    if (loggedInUser) {
-      const userData = JSON.parse(loggedInUser);
-      setUser(userData.role);
-      setLoggedInUserData(userData.data);
-    }
-  }, []);
+  //   if (loggedInUser) {
+  //     const userData = JSON.parse(loggedInUser);
+  //     setUser(userData.role);
+  //     setLoggedInUserData(userData.data);
+  //   }
+  // }, []);
 
   // ! useEffect >> isko comment karo jab admin se logout hona hai aut login screen perjana ho manually
   // ! error <<
